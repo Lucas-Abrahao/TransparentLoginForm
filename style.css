@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("https://raw.githubusercontent.com/Lucas-Abrahao/TransparentLoginForm/main/background.png");
+  background: url(https://raw.githubusercontent.com/Lucas-Abrahao/TransparentLoginForm/main/background.png);
   background-size: cover;
   font-family: sans-serif;
 }
