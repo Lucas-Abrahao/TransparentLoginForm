@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./assets/background.png);
+  background-size: cover;
+  font-family: sans-serif;
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.form{
+  color: #12c2fc;
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;  
+}
+.form h1{
+  font-weight: 700;
+  z-index: 10;
+}
+.fa-solid{
+  position: absolute;
+  display: flex;
+  top: calc(-100px/2);
+  left: calc(70% - 10px);
+
+}
+.inputBox{
+  position: relative;
+  width: 305px;
+  margin-top: 40px;
+}
+.inputBox input{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border-color: #12c2fc;
+  border-radius: 10px;
+  color: #def5fc;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  z-index: 10;
+}
+.inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  color: #def5fc;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  margin: 10px;
+  margin-top: 50px;
+  font-size: 0.75em;
+  color: #def5fc;
+  text-decoration: none;
+}
+.links a:hover{
+  color: #12c2fc;
+}
+input[type=submit]{
+  border: none;
+  color: #def5fc;
+  background: #12c2fc;
+  outline: none;
+  padding: 11px 25px;
+  width: 100%;
+  margin-left: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+input[type=submit]:active{
+  opacity: 0.7;
+
+}
