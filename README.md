@@ -8,7 +8,7 @@
 🇺🇸 My First Time Using Background Image.
 
 ---
-<h3 align="center">Build With:</h3>
+<h3 align="center">Built With:</h3>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
